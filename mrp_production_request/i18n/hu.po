@@ -33,44 +33,44 @@ msgstr ""
 #. module: mrp_production_request
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.view_mrp_production_request_form
 msgid "Approve"
-msgstr ""
+msgstr "Jóváhagy"
 
 #. module: mrp_production_request
 #: model:ir.model.fields.selection,name:mrp_production_request.selection__mrp_production_request__state__approved
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.view_mrp_production_request_search
 msgid "Approved"
-msgstr ""
+msgstr "Jóváhagyott"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__assigned_to
 msgid "Approver"
-msgstr ""
+msgstr "Jóváhagyó"
 
 #. module: mrp_production_request
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.view_mrp_production_request_search
 msgid "Assigned to"
-msgstr ""
+msgstr "Hozzárendelt"
 
 #. module: mrp_production_request
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.view_mrp_production_request_search
 msgid "Assigned to me"
-msgstr ""
+msgstr "Hozzám rendelve"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__message_attachment_count
 msgid "Attachment Count"
-msgstr ""
+msgstr "Csatolmányok mennyisége"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__bom_id
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request_create_mo__bom_id
 msgid "Bill of Materials"
-msgstr ""
+msgstr "Anyagjegyzék"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request_create_mo_line__bottle_neck_factor
 msgid "Bottle Neck Factor"
-msgstr ""
+msgstr "Szűk keresztmetszet"
 
 #. module: mrp_production_request
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.mrp_production_request_create_mo_view
@@ -81,7 +81,7 @@ msgstr "Mégsem"
 #: model:ir.model.fields.selection,name:mrp_production_request.selection__mrp_production_request__state__cancel
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.view_mrp_production_request_search
 msgid "Cancelled"
-msgstr ""
+msgstr "Törölve"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__category_uom_id
@@ -95,11 +95,13 @@ msgid ""
 "Check this box to generate manufacturing request instead of generating "
 "manufacturing orders from procurement."
 msgstr ""
+"Pipálja be ezt a dobozt, ha azt szeretné, hogy gyártási rendelés helyett "
+"gyártási kérvényt generáljon a beszerzési igényekből a rendszer."
 
 #. module: mrp_production_request
 #: model_terms:ir.actions.act_window,help:mrp_production_request.mrp_production_request_action
 msgid "Click to start a new manufacturing request process."
-msgstr ""
+msgstr "Kattintson egy új gyártási kérvény létehozásához."
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__company_id
@@ -109,7 +111,7 @@ msgstr "Vállalat"
 #. module: mrp_production_request
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.mrp_production_request_create_mo_view
 msgid "Compute lines"
-msgstr ""
+msgstr "Sorok számítása"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,help:mrp_production_request.field_mrp_production_request__category_uom_id
@@ -117,22 +119,24 @@ msgid ""
 "Conversion between Units of Measure can only occur if they belong to the "
 "same category. The conversion will be made based on the ratios."
 msgstr ""
+"A mennyiségi egységeket csak akkor lehet átváltani, ha azonos kategóriába "
+"tartoznak. Az átváltás az egységek közti arány alapján lesz kalkulálva."
 
 #. module: mrp_production_request
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.mrp_production_request_create_mo_view
 msgid "Create MO"
-msgstr ""
+msgstr "Gyártási rendelés léterhozása"
 
 #. module: mrp_production_request
 #: model:ir.actions.act_window,name:mrp_production_request.mrp_production_request_create_mo_action
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.view_mrp_production_request_form
 msgid "Create Manufacturing Order"
-msgstr ""
+msgstr "Gyártási rendelés léterhozása"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_stock_move__created_mrp_production_request_id
 msgid "Created Production Request"
-msgstr ""
+msgstr "Gyártási igény létrehozva"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__create_uid
@@ -152,13 +156,13 @@ msgstr "Létrehozás dátuma"
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__date_planned_finished
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request_create_mo__date_planned_finished
 msgid "Deadline End"
-msgstr ""
+msgstr "Határidő vége"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__date_planned_start
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request_create_mo__date_planned_start
 msgid "Deadline Start"
-msgstr ""
+msgstr "Határidő kezdete"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__description
@@ -170,7 +174,7 @@ msgstr "Leírás"
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request_create_mo__display_name
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request_create_mo_line__display_name
 msgid "Display Name"
-msgstr "Név megjelenítése"
+msgstr "Megjelenített név"
 
 #. module: mrp_production_request
 #: model:ir.model.fields.selection,name:mrp_production_request.selection__mrp_production_request__state__done
@@ -188,27 +192,27 @@ msgstr "Tervezet"
 #. module: mrp_production_request
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.view_mrp_production_request_form
 msgid "Extra information"
-msgstr ""
+msgstr "Extra információ"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__location_dest_id
 msgid "Finished Products Location"
-msgstr ""
+msgstr "Befejezett termék lokációja"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__message_follower_ids
 msgid "Followers"
-msgstr ""
+msgstr "Követők"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__message_channel_ids
 msgid "Followers (Channels)"
-msgstr ""
+msgstr "Követők (Csatornánként)"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__message_partner_ids
 msgid "Followers (Partners)"
-msgstr ""
+msgstr "Követők (Partnerenként)"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__id
@@ -221,13 +225,13 @@ msgstr "ID"
 #: model:ir.model.fields,help:mrp_production_request.field_mrp_production_request__message_needaction
 #: model:ir.model.fields,help:mrp_production_request.field_mrp_production_request__message_unread
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "Ha be van pipálva, egyes üzeneteket ellenőriznie kell."
 
 #. module: mrp_production_request
 #: model:ir.model.fields,help:mrp_production_request.field_mrp_production_request__message_has_error
 #: model:ir.model.fields,help:mrp_production_request.field_mrp_production_request__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
-msgstr ""
+msgstr "Ha be van pipálva, egyes üzeneteket nem sikerült kézbesíteni."
 
 #. module: mrp_production_request
 #: model:ir.model.fields,help:mrp_production_request.field_mrp_production_request__propagate
@@ -236,11 +240,14 @@ msgid ""
 "next procurement) is cancelled or split, the move generated by this move "
 "will too"
 msgstr ""
+"Ha be van pipálva, mikor a mozgást megelőző másik mozgás törölve lett vagy "
+"részekre lett osztva, akkor az ebből a mozgásból létrehozott másik mozgással "
+"is ugyanez fog történni."
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "Követő"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request____last_update
@@ -254,56 +261,56 @@ msgstr "Utolsó frissítés dátuma"
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request_create_mo__write_uid
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request_create_mo_line__write_uid
 msgid "Last Updated by"
-msgstr "Utoljára frissítve, által"
+msgstr "Utoljára frissítette"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__write_date
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request_create_mo__write_date
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request_create_mo_line__write_date
 msgid "Last Updated on"
-msgstr "Utoljára frissítve "
+msgstr "Utoljára frissítve"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request_create_mo_line__location_id
 msgid "Location"
-msgstr ""
+msgstr "Lokáció"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__mrp_production_count
 msgid "MO's Count"
-msgstr ""
+msgstr "Gyártási rendelések száma"
 
 #. module: mrp_production_request
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.view_mrp_production_request_form
 msgid "MOs"
-msgstr ""
+msgstr "Gyártási rendelések"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__message_main_attachment_id
 msgid "Main Attachment"
-msgstr ""
+msgstr "Fő csatolmány"
 
 #. module: mrp_production_request
 #: model:res.groups,name:mrp_production_request.group_mrp_production_request_manager
 msgid "Manager"
-msgstr ""
+msgstr "Menedzser"
 
 #. module: mrp_production_request
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.mrp_production_request_create_mo_view
 msgid "Manufacture Request status"
-msgstr ""
+msgstr "Rendelési igény státusza"
 
 #. module: mrp_production_request
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.mrp_production_request_create_mo_view
 msgid "Manufacturing Order:"
-msgstr ""
+msgstr "Gyártási rendelés"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__mrp_production_ids
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.view_mrp_production_request_form
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.view_mrp_production_request_search
 msgid "Manufacturing Orders"
-msgstr ""
+msgstr "Gyártási rendelések"
 
 #. module: mrp_production_request
 #: model:ir.model,name:mrp_production_request.model_mrp_production_request
@@ -314,24 +321,24 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.view_mrp_production_request_form
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.view_mrp_production_request_search
 msgid "Manufacturing Request"
-msgstr ""
+msgstr "Gyártási igény"
 
 #. module: mrp_production_request
 #: model:ir.actions.act_window,name:mrp_production_request.mrp_production_request_action
 #: model:ir.ui.menu,name:mrp_production_request.menu_mrp_production_request_act
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.view_mrp_production_request_tree
 msgid "Manufacturing Requests"
-msgstr ""
+msgstr "Gyártási igények"
 
 #. module: mrp_production_request
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.view_mrp_production_request_search
 msgid "Manufacturing Requests not done or cancelled."
-msgstr ""
+msgstr "Be nem fejezett vagy törölt Gyártási igények"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__message_has_error
 msgid "Message Delivery error"
-msgstr ""
+msgstr "Üzenetküldési hiba"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__message_ids
@@ -342,12 +349,12 @@ msgstr "Olvasatlan üzenetek"
 #. module: mrp_production_request
 #: model:ir.model,name:mrp_production_request.model_stock_warehouse_orderpoint
 msgid "Minimum Inventory Rule"
-msgstr ""
+msgstr "Minimum készlet szabály"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request_create_mo__mrp_production_request_id
 msgid "Mrp Production Request"
-msgstr ""
+msgstr "Gyártási igény"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request_create_mo_line__mrp_production_request_create_mo_id
@@ -357,7 +364,7 @@ msgstr ""
 #. module: mrp_production_request
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.view_mrp_production_request_search
 msgid "My requests"
-msgstr ""
+msgstr "Saját igényeim"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__name
@@ -367,22 +374,22 @@ msgstr "Név"
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__message_needaction_counter
 msgid "Number of Actions"
-msgstr ""
+msgstr "Akciók száma"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__message_has_error_counter
 msgid "Number of errors"
-msgstr ""
+msgstr "Hibák száma"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,help:mrp_production_request.field_mrp_production_request__message_needaction_counter
 msgid "Number of messages which requires an action"
-msgstr ""
+msgstr "Akciót igénylő üzenetek száma"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,help:mrp_production_request.field_mrp_production_request__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr ""
+msgstr "Küldési hibás üzenetek száma"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,help:mrp_production_request.field_mrp_production_request__message_unread_counter
@@ -393,50 +400,50 @@ msgstr "Olvasatlan üzenetek"
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__orderpoint_id
 msgid "Orderpoint"
-msgstr ""
+msgstr "Rendelési pont"
 
 #. module: mrp_production_request
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.view_mrp_production_request_search
 msgid "Pending Qty"
-msgstr ""
+msgstr "Függőben lévő mennyiség"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__pending_qty
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request_create_mo__pending_qty
 msgid "Pending Quantity"
-msgstr ""
+msgstr "Függőben lévő mennyiség"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__picking_type_id
 msgid "Picking Type"
-msgstr ""
+msgstr "Kiszedési típus"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__procurement_group_id
 msgid "Procurement Group"
-msgstr ""
+msgstr "Beszerzési csoport"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__product_id
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request_create_mo_line__product_id
 msgid "Product"
-msgstr ""
+msgstr "Termék"
 
 #. module: mrp_production_request
 #: model:ir.model,name:mrp_production_request.model_product_template
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__product_tmpl_id
 msgid "Product Template"
-msgstr ""
+msgstr "Termék"
 
 #. module: mrp_production_request
 #: model:ir.model,name:mrp_production_request.model_mrp_production
 msgid "Production Order"
-msgstr ""
+msgstr "Gyártási sorrend"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request_create_mo__product_line_ids
 msgid "Products needed"
-msgstr ""
+msgstr "Szükséges termékek"
 
 #. module: mrp_production_request
 #: code:addons/mrp_production_request/wizards/mrp_production_request_create_mo.py:0
@@ -444,36 +451,37 @@ msgstr ""
 msgid ""
 "Programming error: wizard action executed without active_ids in context."
 msgstr ""
+"Programming error: wizard action executed without active_ids in context."
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__propagate
 msgid "Propagate cancel and split"
-msgstr ""
+msgstr "Propagálja a törlést és ossza részekre"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request_create_mo__mo_qty
 msgid "Quantity"
-msgstr ""
+msgstr "Mennyiség"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request_create_mo_line__available_qty
 msgid "Quantity Available"
-msgstr ""
+msgstr "Rendelkezésre álló mennyiség"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__done_qty
 msgid "Quantity Done"
-msgstr ""
+msgstr "Kész mennyiség"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request_create_mo_line__product_qty
 msgid "Quantity Required"
-msgstr ""
+msgstr "Szükséges mennyiség"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__manufactured_qty
 msgid "Quantity in Manufacturing Orders"
-msgstr ""
+msgstr "Gyártási rendelésekhez kapcsolódó menyiség"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,help:mrp_production_request.field_mrp_production_request__pending_qty
@@ -482,107 +490,109 @@ msgid ""
 "Quantity pending to add to Manufacturing Orders to fulfill the Manufacturing "
 "Request requirement."
 msgstr ""
+"Függőben lévő mennyiség, melyet Gyártási rendeléshez kell adni, hogy a kapcsolódó "
+"Gyártási igényeket kielégítse."
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__location_src_id
 msgid "Raw Materials Location"
-msgstr ""
+msgstr "Nyersanyag lokációja"
 
 #. module: mrp_production_request
 #: model:ir.model.constraint,message:mrp_production_request.constraint_mrp_production_request_name_uniq
 msgid "Reference must be unique per Company!"
-msgstr ""
+msgstr "A referenciának egyedinek kell lennie vállalatonként!"
 
 #. module: mrp_production_request
 #: model:ir.actions.server,name:mrp_production_request.action_server_mrp_production_request_refresh
 msgid "Refresh Quantities"
-msgstr ""
+msgstr "Mennyiségek frissítése"
 
 #. module: mrp_production_request
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.view_mrp_production_request_form
 msgid "Reject"
-msgstr ""
+msgstr "Elutasít"
 
 #. module: mrp_production_request
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.view_mrp_production_request_form
 msgid "Request approval"
-msgstr ""
+msgstr "Jóváhagyás kérvényezése"
 
 #. module: mrp_production_request
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.view_mrp_production_request_search
 msgid "Request is approved"
-msgstr ""
+msgstr "Kérvényezés jóváhagyva"
 
 #. module: mrp_production_request
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.view_mrp_production_request_search
 msgid "Request is cancelled"
-msgstr ""
+msgstr "Kérvényezés törölve"
 
 #. module: mrp_production_request
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.view_mrp_production_request_search
 msgid "Request is done"
-msgstr ""
+msgstr "Kérvényezés befezeve"
 
 #. module: mrp_production_request
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.view_mrp_production_request_search
 msgid "Request is to be approved"
-msgstr ""
+msgstr "A kérvényezést jóvá kell hagyni"
 
 #. module: mrp_production_request
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.view_mrp_production_request_search
 msgid "Request with pending quantity"
-msgstr ""
+msgstr "Kérvényezés függő mennyiségekkel"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__requested_by
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.view_mrp_production_request_search
 msgid "Requested by"
-msgstr ""
+msgstr "Igénylő"
 
 #. module: mrp_production_request
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.view_mrp_production_request_search
 msgid "Requested by me"
-msgstr ""
+msgstr "Általam igényelve"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__product_qty
 msgid "Required Quantity"
-msgstr ""
+msgstr "Szükséges mennyiség"
 
 #. module: mrp_production_request
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.view_mrp_production_request_form
 msgid "Reset"
-msgstr ""
+msgstr "Újraindítás"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__routing_id
 msgid "Routing"
-msgstr ""
+msgstr "Útvonal"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__message_has_sms_error
 msgid "SMS Delivery error"
-msgstr ""
+msgstr "SMS küldési hiba"
 
 #. module: mrp_production_request
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.view_mrp_production_request_search
 msgid "Search Manufacturing Request"
-msgstr ""
+msgstr "Gyártási igények keresése"
 
 #. module: mrp_production_request
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.mrp_production_request_create_mo_view
 msgid "Select event to register"
-msgstr ""
+msgstr "Válasszon ki egy eseményt"
 
 #. module: mrp_production_request
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.view_mrp_production_request_search
 msgid "Source"
-msgstr ""
+msgstr "Forrás"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__origin
 msgid "Source Document"
-msgstr ""
+msgstr "Forrás dokumentum"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__state
@@ -592,27 +602,27 @@ msgstr "Állapot"
 #. module: mrp_production_request
 #: model:ir.model,name:mrp_production_request.model_stock_move
 msgid "Stock Move"
-msgstr ""
+msgstr "Készletmozgás"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__move_dest_ids
 msgid "Stock Movements of Produced Goods"
-msgstr ""
+msgstr "Megtermelt termékek készletmozgásai"
 
 #. module: mrp_production_request
 #: model:ir.model,name:mrp_production_request.model_stock_rule
 msgid "Stock Rule"
-msgstr ""
+msgstr "Készlet szabály"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,help:mrp_production_request.field_mrp_production_request__manufactured_qty
 msgid "Sum of the quantities in Manufacturing Orders (in any state)."
-msgstr ""
+msgstr "Gyártási rendeléseken lévő mennyiségek összege (bármilyen állapotban)."
 
 #. module: mrp_production_request
 #: model:ir.model.fields,help:mrp_production_request.field_mrp_production_request__done_qty
 msgid "Sum of the quantities in all done Manufacturing Orders."
-msgstr ""
+msgstr "Kész Gyártási rendeléseken lévő mennyiségek összege."
 
 #. module: mrp_production_request
 #: model:ir.model.fields,help:mrp_production_request.field_mrp_production_request__routing_id
@@ -622,6 +632,9 @@ msgid ""
 "operations and to plan future loads on work centers based on production "
 "plannification."
 msgstr ""
+"A késztermékeket előállító munkaállomások listája. Az útvonal "
+"elsősorban a munkaállomások költségeinek számolására van használva és hogy "
+"a jövőbeni munka tervezését elősegítse a termékek tervei alapján."
 
 #. module: mrp_production_request
 #: code:addons/mrp_production_request/models/stock_rule.py:0
@@ -630,37 +643,38 @@ msgid ""
 "There is no Bill of Material found for the product %s. Please define a Bill "
 "of Material for this product."
 msgstr ""
+"A %s termékhez nincs anyagjegyzék rendelve. Kérem adjon meg egyet."
 
 #. module: mrp_production_request
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.view_mrp_production_request_search
 msgid "To Approve"
-msgstr ""
+msgstr "Jóváhagyni"
 
 #. module: mrp_production_request
 #: model:ir.model.fields.selection,name:mrp_production_request.selection__mrp_production_request__state__to_approve
 msgid "To Be Approved"
-msgstr ""
+msgstr "Jóváhagyandó"
 
 #. module: mrp_production_request
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.view_mrp_production_request_search
 msgid "To Do"
-msgstr ""
+msgstr "Teendő"
 
 #. module: mrp_production_request
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.view_mrp_production_request_search
 msgid "Unassigned"
-msgstr ""
+msgstr "Gazdátlan"
 
 #. module: mrp_production_request
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.view_mrp_production_request_search
 msgid "Unassigned Request"
-msgstr ""
+msgstr "Gazdátlan kérvény"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__product_uom_id
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request_create_mo__product_uom_id
 msgid "Unit of Measure"
-msgstr ""
+msgstr "Mértékegység"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__message_unread
@@ -677,7 +691,7 @@ msgstr "Olvasatlan üzenetek"
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request_create_mo_line__product_uom_id
 msgid "UoM"
-msgstr ""
+msgstr "ME"
 
 #. module: mrp_production_request
 #: model:res.groups,name:mrp_production_request.group_mrp_production_request_user
@@ -688,22 +702,22 @@ msgstr "Felhasználó"
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__website_message_ids
 #, fuzzy
 msgid "Website Messages"
-msgstr "Olvasatlan üzenetek"
+msgstr "Weboldal üzenetek"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,help:mrp_production_request.field_mrp_production_request__website_message_ids
 msgid "Website communication history"
-msgstr ""
+msgstr "Weboldal kommunikációs előzmények"
 
 #. module: mrp_production_request
 #: model:ir.model,name:mrp_production_request.model_mrp_production_request_create_mo
 msgid "Wizard to create Manufacturing Orders"
-msgstr ""
+msgstr "Gyártási rendelés varázsló"
 
 #. module: mrp_production_request
 #: model:ir.model,name:mrp_production_request.model_mrp_production_request_create_mo_line
 msgid "Wizard to create Manufacturing Orders Line"
-msgstr ""
+msgstr "Gyártási rendelés tétel varázsló"
 
 #. module: mrp_production_request
 #: code:addons/mrp_production_request/models/mrp_production_request.py:0
@@ -711,6 +725,8 @@ msgstr ""
 msgid ""
 "You cannot reject a manufacturing request related to done procurement orders."
 msgstr ""
+"Nem utasíthat el egy olyan gyártási kérvényt, mely egy befejezett beszerzési "
+"rendeléshez kapcsolódik."
 
 #. module: mrp_production_request
 #: code:addons/mrp_production_request/models/mrp_production_request.py:0
@@ -719,6 +735,7 @@ msgid ""
 "You cannot reset a manufacturing request if the related manufacturing orders "
 "are not cancelled."
 msgstr ""
+"Nem indíthat újra egy gyártási igényt ha a kapcsolódó gyártási rendelés nincs törölve."
 
 #. module: mrp_production_request
 #: model_terms:ir.ui.view,arch_db:mrp_production_request.mrp_production_request_create_mo_view
