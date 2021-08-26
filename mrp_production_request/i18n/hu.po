@@ -24,6 +24,10 @@ msgid ""
 "A Manufacturing Request is an instruction to production to produce\n"
 "            a certain quantity of a given product."
 msgstr ""
+"A Gyártási igény egy jóváhagyást igénylő kérvényezés a gyár felé, "
+"hogy egy terméket legyártson. A Gyártási rendeléseket ez a lépés "
+"előz(het)i meg"
+
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__message_needaction
@@ -101,7 +105,7 @@ msgstr ""
 #. module: mrp_production_request
 #: model_terms:ir.actions.act_window,help:mrp_production_request.mrp_production_request_action
 msgid "Click to start a new manufacturing request process."
-msgstr "Kattintson egy új gyártási kérvény létehozásához."
+msgstr "Kattintson egy új gyártási igény létehozásához."
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__company_id
@@ -725,7 +729,7 @@ msgstr "Gyártási rendelés tétel varázsló"
 msgid ""
 "You cannot reject a manufacturing request related to done procurement orders."
 msgstr ""
-"Nem utasíthat el egy olyan gyártási kérvényt, mely egy befejezett beszerzési "
+"Nem utasíthat el egy olyan gyártási igényt, mely egy befejezett beszerzési "
 "rendeléshez kapcsolódik."
 
 #. module: mrp_production_request
